@@ -1,0 +1,28 @@
+<!-- C:\Users\Rajesh\Documents\interntask2\frontend\restaurant-add.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Restaurant</title>
+    <link rel="stylesheet" href="restaurant-add.css">
+</head>
+<body>
+    <div class="restaurant-container">
+        <h1 class="title">Add New Restaurant</h1>
+        <div class="form-group">
+            <input class="input-field" type="file" accept="image/*" id="restaurant-image" multiple>
+            <textarea class="input-field textarea" placeholder="Address" id="address"></textarea>
+            <input class="input-field" type="file" accept="image/*" id="items-images" multiple>
+            <input class="input-field" type="file" accept="image/*" id="tables-images" multiple>
+            <button class="submit-btn">Add Restaurant</button>
+        </div>
+        <p class="message"></p>
+    </div>
+    <div class="restaurant-list">
+        <h2 class="list-title">Restaurant List</h2>
+        <ul class="restaurants"></ul>
+    </div>
+    <script src="restaurant-add.js"></script>
+</body>
+</html>

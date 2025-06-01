@@ -1,0 +1,64 @@
+/* C:\Users\Rajesh\Documents\interntask2\frontend\admin-signup.css */
+.admin-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 25px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-photo/top-view-workspace-with-copy-space_23-2148236864.jpg?uid=R157583499&ga=GA1.1.1910768974.1722428793&semt=ais_hybrid");
+}
+
+.title {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-field {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    background: #ffffff;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.submit-btn {
+    padding: 12px;
+    background: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #2980b9;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+body{
+    margin:0px;
+}
